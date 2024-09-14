@@ -1,278 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>Kajal's Portfolio</title>
+    <title>PROCODER</title>
+    <link rel="stylesheet" href="contact.css">
+
 </head>
-<header>
-    <!--Start Header-->
-    <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#037bfc">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <tr>
-                        <td width="50%">
-                            <font face="about" color="#292929" size="5">
-                                <span class="fa fa-user-circle" aria-hidden="true"></span>
-                                Kajal Kumari
-                            </font>
-                        </td>
-                        <td>
-                            <a href="#home"><font face="arial" color="#ffffff" size="4">Home</font></a>
-                        </td>
-                        <td>
-                            <a href="#about me"><font face="arial" color="#ffffff" size="4">About Me</font></a>
-                        </td>
-                        <td>
-                            <a href="#My Projects"><font face="arial" color="#ffffff" size="4">My Projects</font></a>
-                        </td>
-                        <td>
-                            <a href="#My Skill"><font face="arial" color="#ffffff" size="4">My Skill</font></a>
-                        </td>
-                        <td>
-                            <a href="#contact"><font face="arial" color="#ffffff" size="4">Contact</font></a>
-                        </td>
-                    </tr>
-                </table>
-            </td>
 
-        </tr>
-
-
-    </table>
-    <!--End Header--></header>
 <body>
-    
-    <!--Start Home-->
-    <table id="home" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#292929">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <tr>
-                        <td align="center" valign="middle">
-                            <h3>
-                                <font face="arial" color="#ffffff" size="7">
-                                     Hi, I'm Kajal Kumari
-                                </font>
-                            </h3>
-                        
-                        <h2>
-                            <font face="arial" color="#42ddf5" size="6">
-                                I am a Programmer
-                           </font>
-                        </h2>
-                        </td>
-                    </tr>
-                </table>
-            </td>
+    <!-- <div class="bgAnimation" id="bgAnimation">
+        <div class="backgroundAmim">
 
-        </tr>
+        </div>
+    </div> -->
+    <div class="container">
+        <nav>
+            
+            <h1><span>PRO</span>CODER</h1>
+            <div class="sidebar">
+                <ul>
+                    <li onclick=closesidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24"
+                                viewBox="0 -960 960 960" width="24">
+                                <path fill="white"
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <li>
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                  
+                    <li>
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="desktopsidebar">
+                <ul>
+                    <li class="hideonmobile">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                   
+                    <!-- <li>Our Team</li> -->
+                   
+                    <li class="hideonmobile">
+                        <div class="nav-link">
+                        <a class="activepage" href="./contact.html">Contact</a>
+                        </div>
+                    </li>
+                    <li class="menu-button" onclick=showsidebar()>
+                        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960"
+                                width="40">
+                                <path fill="white" d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                            </svg></a>
+                    </li>
+                </ul>
+            </div>
 
-
-    </table>
-    <!--End Home-->
-
-    <!--Start About-->
-    <table id="about me" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#292929">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <!-- Heading Start-->
-                    <tr>
-                        <td height="180" align="center" valign="middle" colspan="2">
-                                <font face="arial" color="#f3971b" size="6">
-                                     About Me
-                                </font>
-                                <hr width="70" color="#f3971b">
-                        
-                        </td>
-                    </tr>
-                    <!--Heading End-->
-                    <tr>
-                        <td width="40%">
-                            <img src="photo1.png" alt="Kajal Kumari"  width="50%">
-                        </td>
-                        <td width="60%">
-                            <font face=Garamond, serif color="#ffffff" size="4">
-                                <h2>
-                                    I am a passionate Programmer
-                                </h2>
-                                I’m a first-year student at Indira Gandhi Delhi Technical University for Women (IGDTUW), pursuing a B.Tech degree in computer science. I’m focused in building a strong foundation in engineering and technology, which I hope will open doors to various career opportunities in the future.<br>
-
-
-                                I’m particularly interested in web development, data science and machine learning and I’m excited to explore these fields more deeply through my coursework and projects. Outside of academics, I plan to get involved in campus activities, join relevant clubs or societies, and seek internships to gain practical experience.<br>
-
-
-                                In the long term, I aim to contribute meaningfully to the tech industry by working on innovative projects and solving real-world problems. I’m eager to learn, grow, and make the most of the opportunities that come my way .
-                            </font>
-                        </td>
-                    </tr>
+        </nav>
+            <div class="textBox">
+                <table id="about me" border="0" width="100%" cellpadding="0" cellspacing="0" >
                     <tr>
                         <td>
-                            &nbsp;
-                        </td>
-                    </tr>
-                </table>
-            </td>
-
-        </tr>
-
-
-    </table>
-    <!--End About-->
-
-    <!--Start My Projects-->
-    <table id="My Projects" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <!-- Heading Start-->
-                    <tr>
-                        <td height="180" align="center" valign="middle" colspan="1">
-                                <font face="arial" color="#292929" size="6">
-                                     My Projects
-                                </font>
-                                <hr width="130" color="#292929">
-                         </td>
-                    </tr>
-                    <!--Heading End-->
-                    <tr><td><div>
-                        <h2>Project 1</h2>
-                        <p>This is a brief description of project one. It showcases some key features and what technologies were used.</p>
-                        <a href="factorial.java" target="_blank">View Project</a>
-                          </div>
-                        <div>
-                        <h2>Project 2</h2>
-                        <p>This is a brief description of project one. It showcases some key features and what technologies were used.</p>
-                        <a href="lcm.java" target="_blank">View Project</a>
-                        </div>
-                         <div>
-                         <a href="https://github.com/Kajal09kumari" target="_blank">Visit My GitHub Profile</a>
-                         </div></td></tr>
-                               
-                
-
-                </table>
-            </td>
-
-        </tr>
-
-
-    </table>
-    <!--End My Projects-->
-
-    <!--Start my skill-->
-    <table id="My Skill" border=1" width="100%" cellpadding="0" cellspacing="0" bgcolor="#353535">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <!-- Heading Start-->
-                    <tr>
-                        <td height="180" align="center" valign="middle" colspan="3">
-                                <font face="arial" color="#f3971b" size="6">
-                                     my skill
-                                </font>
-                                <hr width="70" color="#f3971b">
-                        
-                        </td>
-                    </tr>
-                    <!--Heading End-->
-                    <tr>
-                        <td width="40%">
-                            <img src="PHOTO 2.png" width="200px">
-                        </td>
-                        <td width="40%">
-                            <img src="PHOTO 3.png" width="200px">
-                        </td>
-                        
-                </table>
-            </td>
-
-        </tr>
-    </table>
-    <!--End My Skill-->
-    <!--Start Contact-->
-    <table id="contact" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="#292929">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                    <!-- Heading Start-->
-                    <tr>
-                        <td height="180" align="center" valign="middle" colspan="1">
-                                <font face="arial" color="#f3971b" size="6">
-                                     Contact
-                                </font>
-                                <hr width="70" color="#f3971b">
-                        
-                        </td>
-                    </tr>
-                    <!--Heading End-->
-                    <tr>
-                        <td align="center" valign="top">
-                           <table border="0" width="50%" cellpadding="15" cellspacing="0" align="center" bgcolor="#353535">
-                               <tr>
-                                   <td width="30%">
-                                       <font face="arial" size="4" color="#ffffff">
-                                           Name
-                                       </font>
-                                   </td>
-                                   <td width="70%">
-                                    <font face="arial" size="4" color="#ffffff">
-                                        <input type="text" size="40">
-                                    </font>
+                            <table border="0" width="90%" cellpadding="15" cellspacing="0" align="center">
+                                <!-- Heading Start-->
+                                <tr>
+                                    <td height="180" align="center" valign="middle" colspan="2">
+                                           <div class="about"> About Me
+                                           </div>
+                                                
+                            
+                                           
+                                    
                                     </td>
-                               </tr>
-                               <tr>
-                                <td width="30%">
-                                    <font face="arial" size="4" color="#ffffff">
-                                        Email
-                                    </font>
-                                </td>
-                                <td width="70%">
-                                 <font face="arial" size="4" color="#ffffff">
-                                     <input type="text" size="40">
-                                 </font>
-                                 </td>
-                            </tr>
-                            <tr>
-                                <td width="30%">
-                                    <font face="arial" size="4" color="#ffffff">
-                                        Message
-                                    </font>
-                                </td>
-                                <td width="70%">
-                                 <font face="arial" size="4" color="#ffffff">
-                                     <textarea rows="5" cols="42"></textarea>
-                                 </font>
-                                 </td>
-                            </tr>
-                            <tr>
-                                <td width="30%">
-                                   &nbsp;
-                                </td>
-                                <td width="70%">
-                                    <button type="Submit">
-                                        <font face="arial" size="4" color="#292929">
-                                             Submit
+                                </tr>
+                                <!--Heading End-->
+                                <tr  align="center">
+                                    <td width="40%">
+                                        <img src="photo1.png" alt="Kajal Kumari"  width="50%">
+                                    </td>
+                                    <td width="60%">
+                                        <font face=Garamond, serif color="#ffffff" size="4">
+                                            <h2>
+                                                I am a passionate Programmer
+                                            </h2>
+                                            I’m a first-year student at Indira Gandhi Delhi Technical University for Women (IGDTUW), pursuing a B.Tech degree in computer science. I’m focused in building a strong foundation in engineering and technology, which I hope will open doors to various career opportunities in the future.<br>
+            
+            
+                                            I’m particularly interested in web development, data science and machine learning and I’m excited to explore these fields more deeply through my coursework and projects. Outside of academics, I plan to get involved in campus activities, join relevant clubs or societies, and seek internships to gain practical experience.<br>
+            
+            
+                                            In the long term, I aim to contribute meaningfully to the tech industry by working on innovative projects and solving real-world problems. I’m eager to learn, grow, and make the most of the opportunities that come my way .
                                         </font>
-                                </button>
-                                 </td>
-                            </tr>
-                           </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        &nbsp;
+
+                                    </td>
+                                </tr>
+                            </table>
                         </td>
+            
+                    </tr>
+            
+            
+                </table>
+                <br>
+                <!-- about end -->
+                  <!--Start Contact-->
+                  <!--Start Footer-->
+                <table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" >
+        <tr>
+            <td>
+                <table border="0" width="100%" cellpadding="15" cellspacing="0" align="center">
+                   
+                    <tr align="center">
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-facebook-square" aria-hidden="true"></span><img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" width="30px">
+                                <a href="https://github.com/Kajal09kumari" style="color: #ffffff":>GitHUb</a>
+                                
+                            </font>
+                            
+                        </td>
+                       
                         
-                         </tr>
-                         <tr><td width="30%" align="center" valign="top"><div class="contact-details"></div>
-                        <p style="color:rgb(249, 251, 253); padding: 10px;">Email: <a href="kajal09kumari1@gmmail.com" style="color: rgb(143, 122, 237);">kajal09kumari1@gmail.com</a></p>
-                        <p style="color:aliceblue">Phone: <a href="7011492419" style="color: rgb(143, 122, 237);">+91 7011492419</a></p>
-                        <p style="color:aliceblue">GitHub: <a href="https://github.com/Kajal09kumari" style="color: rgb(143, 122, 237);" target="_blank">Visit My GitHub Profile</a></p>
-                        <p style="color:aliceblue">LinkedIn: <a href="https://www.linkedin.com/in/kajal-kumari-667a89323/" style="color: rgb(143, 122, 237);" target="_blank">Connect on LinkedIn</a></p>
-                         </div></td></tr>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3571b" size="5">
+                                <span class="fa fa-linkedin-square" aria-hidden="true"></span> 
+                                <div class ="linkedin" >
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/900px-LinkedIn_logo_initials.png?20140125013055" width="30px">
+                                <a href="https://www.linkedin.com/in/kajal-kumari-667a89323/" style="color: #ffffff":> LinkedIn</a>
+                                </div>
+                            </font>
+                            <!-- <a href="https://www.linkedin.com/in/kajal-kumari-667a89323/"> LinkedIn</a> -->
+
+                            
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-envelope-o" aria-hidden="true"></span><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" width="30px">
+                                <a href="mailto:kajal09kumari1@gmail.com" style="color: #ffffff":>Email</a>
+                            </font>
+                            
+                        </td>
+                       
+                    </tr>
                     
                     <tr>
-                        <td colspan="3">
+                        <td colspan="5">
                             &nbsp;
                         </td>
                     </tr>
@@ -282,99 +161,24 @@
         </tr>
 
 
-    </table>
-    <!--End Contact-->
+        </table>
+        <!--End Footer-->
 
-    <!--Start Footer-->
-    <table id="header" border="1" width="100%" cellpadding="0" cellspacing="0" bgcolor="#353535">
-        <tr>
-            <td>
-                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
-                   
-                    <tr>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-facebook-square" aria-hidden="true"></span>
-                                Facebook
-                            </font>
-                            
-                        </td>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-twitter-square" aria-hidden="true"></span>
-                                Twitter
-                            </font>
-                            
-                        </td>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-instagram" aria-hidden="true"></span>
-                                Instagram
-                            </font>
-                            
-                        </td>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-linkedin-square" aria-hidden="true"></span>
-                                Linkedin
-                            </font>
-                            
-                        </td>
-                        <td rowspan="2">
-                            <font face="arial" color="#ffffff" size="5">
-                                <span class="fa fa-arrow-circle-up" aria-hidden="true"></span>
-                             <a href="#header">
-                                <font face="arial" color="#ffffff" size="5">
-                                    Top
-                                </font>
-                                
-                            </a>
-                            </font>
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-youtube-square" aria-hidden="true"></span>
-                                YouTube
-                            </font>
-                            
-                        </td>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-rss-square" aria-hidden="true"></span>
-                                Blog
-                            </font>
-                            
-                        </td>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-envelope-o" aria-hidden="true"></span>
-                                Email
-                            </font>
-                            
-                        </td>
-                        <td width="25%" valign="top">
-                            <font face="arial" color="#f3971b" size="5">
-                                <span class="fa fa-globe" aria-hidden="true"></span>
-                                Website
-                            </font>
-                            
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="3">
-                            &nbsp;
-                        </td>
-                    </tr>
-                </table>
-            </td>
-
-        </tr>
-
-
-    </table>
-    <!--End Footer-->
+                
+               
+    </div>
+    </div>
+    
+    
+    <script src="./script.js"></script>
+   
 </body>
+
 </html>
+                           
+                            
+           
+   
+
+                   
+                                
